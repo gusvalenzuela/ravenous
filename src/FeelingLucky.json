@@ -1,0 +1,24 @@
+{
+	"version": 0,
+	"name": "Foods in Feeling Lucky Array",
+	"foods": [
+		"Pizza",
+		"Burger",
+		"Wine",
+		"Chinese",
+		"Beef",
+		"Chicken",
+		"Pork",
+		"Tacos",
+		"Kale",
+		"Thai",
+		"Vietnamese",
+		"American",
+		"Orange Chicken",
+		"Orange Juice",
+		"Coconut",
+		"Acai",
+		"Corn",
+		"Hot Dog"
+	]
+}
