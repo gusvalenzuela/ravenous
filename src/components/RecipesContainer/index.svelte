@@ -1,6 +1,11 @@
-<script>
-  export let currentRecipes;
-  console.log(currentRecipes);
+<script lang="ts">
+  interface RecipeType {
+    name: string;
+    original_video_url?: string;
+    thumbnail_url?: string;
+  }
+  export let currentRecipes: RecipeType[];
+  // console.log(currentRecipes);
 </script>
 
 <style>
