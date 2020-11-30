@@ -1,0 +1,13 @@
+trailingComma: 'es5'
+tabWidth: 2
+semi: false
+singleQuote: true
+endOfLine: 'lf'
+svelteStrictMode: true
+svelteBracketNewLine: true
+overrides:
+  - files:
+      - '*.test.js*'
+      # - '*.test.jsx'
+    options:
+      semi: true
