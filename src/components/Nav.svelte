@@ -1,5 +1,5 @@
 <script lang="ts">
-  export let segment: string;
+  export let segment: string
 </script>
 
 <style>
@@ -16,7 +16,7 @@
 
   /* clearfix */
   ul::after {
-    content: "";
+    content: '';
     display: block;
     clear: both;
   }
@@ -33,7 +33,7 @@
 
   [aria-current]::after {
     position: absolute;
-    content: "";
+    content: '';
     width: calc(100% - 1em);
     height: 2px;
     background-color: rgb(255, 62, 0);
@@ -52,17 +52,18 @@
   <ul>
     <li>
       <a
-        aria-current={segment === undefined ? 'page' : undefined}
-        href=".">Home</a>
+        aria-current="{segment === undefined ? 'page' : undefined}"
+        href="."
+      >Home</a>
     </li>
     <li>
       <a
-        aria-current={segment === 'ingredients' ? 'page' : undefined}
-        href="ingredients">My Saved Ingredients</a>
+        aria-current="{segment === 'ingredients' ? 'page' : undefined}"
+        href="recipes"
+      >♥ Recipes</a>
     </li>
     <li>
-      <a aria-current={segment === 'map' ? 'page' : undefined} href="map">Find
-        Grocery Store</a>
+      <a aria-current="{segment === 'map' ? 'page' : undefined}" href="map">🗺</a>
     </li>
 
     <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
