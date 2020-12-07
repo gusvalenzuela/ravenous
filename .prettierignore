@@ -10,6 +10,7 @@ LICENSE
 !*.ts
 !*.tsx
 !*.md
+!*.yaml
 !*.yml
 
 !/.github/
