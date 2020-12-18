@@ -1,26 +1,29 @@
 <script lang="ts">
-  import Nav from "../components/Nav.svelte";
+  import Nav from '../components/Nav.svelte'
 
-  export let segment: string;
+  export let segment: string
 </script>
 
 <style>
   main {
-    display: grid;
-    grid-template-rows: 1fr auto;
-	height: calc(100vh - 57px);
-	width:  100%;
-    position: relative;
+    /* height: calc(100vh - 57px); */
+
+    width: 100%;
     /* max-width: 56em; */
     background-color: white;
-    padding: .2em;
-    margin: 0;
+    padding: 0;
+    margin: auto;
     box-sizing: border-box;
   }
+  /* desktop constraint */
+  /* @media (hover: hover) and (min-width: 480px) {
+    max-inline-size: 480px;
+    max-block-size: 848px;
+  } */
 </style>
 
-<Nav {segment} />
+<Nav segment="{segment}" />
 
-<main>
+<main class="main">
   <slot />
 </main>
